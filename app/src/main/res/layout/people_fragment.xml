@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.people.PeopleFragment">
+
+    <EditText
+        android:id="@+id/search_users"
+        android:layout_width="346dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Search..." />
+
+    <ImageButton
+        android:id="@+id/add_group"
+        android:layout_width="53dp"
+        android:layout_height="59dp"
+        android:layout_toRightOf="@id/search_users"
+        android:background="@color/quantum_white_100"
+        android:src="@drawable/ic_create_group" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_users"
+        android:layout_marginTop="8dp" />
+
+
+</RelativeLayout>

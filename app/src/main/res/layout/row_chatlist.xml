@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_profile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_face1"/>
+
+        <ImageView
+            android:id="@+id/onlineStatusIv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="His Name"
+        android:textColor="@color/quantum_black_100"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/image_profile"
+        android:layout_toRightOf="@id/image_profile"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:id="@+id/lastMessageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The last message"
+            android:layout_toEndOf="@id/image_profile"
+            android:layout_toRightOf="@id/image_profile"
+            android:layout_below="@id/nameTV"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="3dp"
+            android:maxLines="2"
+            android:layout_marginLeft="4dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

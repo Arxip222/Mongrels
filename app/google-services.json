@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "103922253320",
+    "firebase_url": "https://mmap-1220d.firebaseio.com",
+    "project_id": "mmap-1220d",
+    "storage_bucket": "mmap-1220d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103922253320:android:d1b5544839d614e4339bbd",
+        "android_client_info": {
+          "package_name": "com.example.finish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103922253320-ivgo7k1dij9brtujbn8u1pfl4ri1m6na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5_4YeLuKTSTRrOmR_ThFyWGg_gxG3yeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103922253320-ivgo7k1dij9brtujbn8u1pfl4ri1m6na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
